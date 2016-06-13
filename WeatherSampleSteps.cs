@@ -59,7 +59,7 @@ namespace SoapWebService.SampleTest
        
             BaseDriver.getDriver().Navigate().GoToUrl(p0);
             LoginPage loginPage = new LoginPage(BaseDriver.getDriver());
-            loginPage.signIn("superman", "enterprise1");
+            loginPage.signIn("BumbleBee", "Autobats");
         }
 
         [AfterScenario]
